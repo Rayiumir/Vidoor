@@ -6,8 +6,8 @@ const server = require('http').Server(app);
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
-app.get('/', (res, req) => {
-    req.render("chat");
+app.get('/', (req, res) => {
+    res.render('index');
 })
 
 server.listen(3000);

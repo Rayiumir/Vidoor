@@ -1,0 +1,31 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background: #34495e;
+}
+.navbar{
+    background-color: #2c3e50;
+    padding: 15px;
+    color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-center{
+    text-align: center !important;
+}
+.fs{
+    font-size: 20px;
+}
+.card{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center !important;
+    border: 2px solid #dbc9c9;
+}
+.card img{
+    max-width: 100%;
+    border-radius: 15px;
+}
