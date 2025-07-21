@@ -1,0 +1,26 @@
+{
+  "name": "vidoor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rayiumir/Vidoor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rayiumir/Vidoor/issues"
+  },
+  "homepage": "https://github.com/Rayiumir/Vidoor#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  }
+}
