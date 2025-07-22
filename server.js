@@ -19,6 +19,8 @@ app.get('/:id', (req, res) => {
 io.on("connection", socket => {
     socket.on('join-room', (indexId, userId) => {
         console.log(indexId, userId);
+        socket.join(indexId);
+        socket.broadcast.to(indexId).emit('userConnected', userId);
     })
 })
 
