@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vidoor - VideoChat with NodeJS</title>
+    <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="style.css">
     <script>
         const IndexID = "<%= indexId %>"
@@ -23,6 +24,17 @@
     <main class="main">
         <div class="videoGroup">
             <div id="videoGrid"></div>
+        </div>
+        <div class="option">
+            <div id="stopVideo" class="optionButton">
+                <i class="fa-duotone fa-video-camera" ></i>
+            </div>
+            <div id="muteButton" class="optionButton">
+                <i class="fa-duotone fa-microphone"></i>
+            </div>
+            <div id="inviteButton" class="optionButton">
+                <i class="fa-duotone fa-user-plus"></i>
+            </div>
         </div>
     </main>
     <script src="/socket.io/socket.io.js" defer></script>

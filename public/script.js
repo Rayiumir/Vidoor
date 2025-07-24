@@ -5,6 +5,7 @@ const myPeer = new Peer(undefined, {
     host: '/',
     port: '3001'
 })
+
 myPeer.on('open', id => {
     socket.emit('join-room', IndexID, id);
 })
@@ -48,13 +49,14 @@ navigator.mediaDevices.getUserMedia({
 
 })
 
-// video.muted = true;
-
 function addVideoStream(video, stream){
     video.srcObject = stream;
+    video.muted = true;
     videoGrid.append(video);
     video.play();
 }
+
+const peers = {};
 
 function connectToNewUser(userId, stream){
     const call = myPeer.call(userId, stream);
@@ -66,6 +68,6 @@ function connectToNewUser(userId, stream){
     call.on('close', () =>{
         video.remove();
     })
-    
+
     peers[userId] = call;
 }
