@@ -66,10 +66,7 @@ Visit [http://localhost:3000](http://localhost:3000). You will be redirected to 
 
 # Demo
 
-<video width="100%" height="100%" controls>
-    <source src="./demo/vidoor.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video> 
+[![Watch the video](https://raw.githubusercontent.com/Rayiumir/Vidoor/refs/heads/main/demo/screenshot.png)](https://raw.githubusercontent.com/Rayiumir/Vidoor/refs/heads/main/demo/vidoor.mp4)
 
 ## How It Works
 
