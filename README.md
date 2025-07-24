@@ -1,3 +1,9 @@
+<p align="center">
+    <picture>
+        <img alt="TaskSquad Logo" src="./logo/vidoor.png" style="width: 200px;">
+    </picture>
+</p>
+
 # Vidoor
 
 A Video Chat Application Built with Node.js, Express, Socket.io, and PeerJS
