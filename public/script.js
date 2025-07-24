@@ -9,11 +9,7 @@ myPeer.on('open', id => {
     socket.emit('join-room', IndexID, id);
 })
 
-socket.on('userConnected', userId => {
-    //console.log("user "+userId+" connected top room: " + IndexID);
-})
-
-const videoGrid = document.getElementById('videoGrids');
+const videoGrid = document.getElementById('videoGrid');
 const video = document.createElement('video');
 
 navigator.mediaDevices.getUserMedia({
@@ -30,8 +26,10 @@ navigator.mediaDevices.getUserMedia({
     addVideoStream(video, stream);
 
     socket.on('userConnected', userId => {
-        //console.log("user "+userId+" connected top room: " + IndexID);
         connectToNewUser(userId, stream);
+        otherPeer.on('call', call => {
+            call.answer(stream)
+        })
     })
 
     otherPeer.on('call', call => {
@@ -44,7 +42,7 @@ navigator.mediaDevices.getUserMedia({
 
 })
 
-video.muted = true;
+// video.muted = true;
 
 function addVideoStream(video, stream){
     video.srcObject = stream;
@@ -58,7 +56,5 @@ function connectToNewUser(userId, stream){
     call.on('stream', userVideoStream => {
         addVideoStream(video, userVideoStream);
     })
-    otherPeer.on('call', call => {
-        call.answer(stream)
-    })
+    
 }
