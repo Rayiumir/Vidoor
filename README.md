@@ -64,6 +64,13 @@ The server will start on [http://localhost:3000](http://localhost:3000).
 
 Visit [http://localhost:3000](http://localhost:3000). You will be redirected to a unique room URL. Share this URL with others to invite them to your video chat room.
 
+# Demo
+
+<video width="100%" height="100%" controls>
+    <source src="./demo/vidoor.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video> 
+
 ## How It Works
 
 - When you visit the app, you are redirected to a unique room (UUID-based URL).
