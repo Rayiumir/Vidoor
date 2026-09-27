@@ -66,7 +66,7 @@ Visit [http://localhost:3000](http://localhost:3000). You will be redirected to 
 
 # Demo
 
-[![Watch the video](https://raw.githubusercontent.com/Rayiumir/Vidoor/refs/heads/main/demo/screenshot.png)](https://raw.githubusercontent.com/Rayiumir/Vidoor/refs/heads/main/demo/vidoor.mp4)
+[![Watch the video](https://raw.githubusercontent.com/Rayiumir/Vidoor/refs/heads/main/demo/screenshot.png)](https://raw.githubusercontent.com/Rayiumir/Vidoor/refs/heads/main/demo/VideoChat.mp4)
 
 ## How It Works
 
