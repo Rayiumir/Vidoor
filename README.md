@@ -4,7 +4,7 @@
     </picture>
 </p>
 
-# Vidoor
+# VideoChat
 
 A Video Chat Application Built with Node.js, Express, Socket.io, and PeerJS
 
