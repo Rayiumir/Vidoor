@@ -1,6 +1,6 @@
 <p align="center">
     <picture>
-        <img alt="TaskSquad Logo" src="./logo/VideoChat.png" style="width: 200px;">
+        <img alt="TaskSquad Logo" src="./logo/VideoChat.png" style="width: 300px;">
     </picture>
 </p>
 
