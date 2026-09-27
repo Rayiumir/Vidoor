@@ -1,6 +1,6 @@
 <p align="center">
     <picture>
-        <img alt="TaskSquad Logo" src="./logo/vidoor.png" style="width: 200px;">
+        <img alt="TaskSquad Logo" src="./logo/VideoChat.png" style="width: 200px;">
     </picture>
 </p>
 
@@ -26,8 +26,8 @@ A Video Chat Application Built with Node.js, Express, Socket.io, and PeerJS
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Rayiumir/Vidoor.git
-cd Vidoor/
+git clone https://github.com/Rayiumir/VideoChat.git
+cd VideoChat/
 ```
 
 ### 2. Install Dependencies
